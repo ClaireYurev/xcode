@@ -9,10 +9,15 @@ import Foundation
 
 func simpleArraySum(ar: [Int]) -> Int {
     // Write your code here
+        
     var sumTotal = 0
     
-    for 
-    sumTotal += ar[i]
+    for i in ar {
+        sumTotal += i
+    }
+    
+    return sumTotal
+    
 }
 
 let stdout = ProcessInfo.processInfo.environment["OUTPUT_PATH"]!
